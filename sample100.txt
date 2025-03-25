@@ -1,0 +1,2 @@
+This is the file created by the write mode. 
+This comes in the second line.
