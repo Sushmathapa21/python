@@ -210,11 +210,16 @@
 #         print("prime")
 
 
-
+# for i in range(3):
+#     print("meow")
     
+# # but because the i is not being used anywhere, the more pythonic way would be to use an underscore.
+
+# for _ in range(3):
+#     print("meow")
 
 
-
+print("meow\n" * 3, end = "") #usage of escape sequence.
 
 
     

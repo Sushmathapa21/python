@@ -3,7 +3,7 @@
 #Addition
 sum = 2 + 2
 print("The sum of 2 + 2 = ", sum)
-#input from the user:
+# taking input from the user:
 x = int(input("Enter num1: "))
 y = int(input("Enter num2: "))
 sum = x+y
@@ -16,7 +16,7 @@ print("The substraction of 3147 - 3021 = ", sub)
 a = int(input("Enter num1: "))  
 b = int(input("Enter num2: "))
 sub = a - b
-print("The sum of a and b is: ",sub)    
+print("The difference of a and b is: ",sub)    
 
 
 #Multiplication
@@ -37,4 +37,14 @@ e = int(input("Enter another number: "))
 div = d/e
 print("The division of the provided number is: ", div)
 
+# Floor Division (provides the result only in integer and removes all the values after the point or the decimal.)
+floordiv = 10//3
+print("The floor division of 10 // 3 is: ", floordiv)
 
+# modulus (provides the remainder value achieved after the division divide garepachi ko remaining value )
+modulus = 10%3
+print("The modulus of 10%3 is: ", modulus)
+
+# Exponentiation (power)
+expo = 2**3
+print("The exponentiation of 2 to the power 3 is: ", expo)
